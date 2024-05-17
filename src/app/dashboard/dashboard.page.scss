@@ -1,0 +1,30 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Espacio superior para separar la imagen del contenido de la tabla */
+}
+
+.normal-image {
+    max-width: 50%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.custom-table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}

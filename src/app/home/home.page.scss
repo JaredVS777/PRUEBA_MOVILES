@@ -1,0 +1,20 @@
+.custom-button {
+  margin-bottom: 10px; 
+  font-weight: bold; 
+}
+
+ion-button[expand="full"] {
+  
+  margin-bottom: 10px;
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+ion-button[color="primary"] {
+  
+  background-color: #3880ff; 
+}
+
+ion-button[color="secondary"] {
+ 
+  background-color: #32db64; 
+}
